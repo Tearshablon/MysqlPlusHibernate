@@ -1,0 +1,238 @@
+2017-11-02 02:12:40  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 02:13:44  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 02:24:47  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 16:27:22  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 16:33:35  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 16:33:57  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 16:35:16  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 16:35:16  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 16:35:16  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 16:35:16  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 16:35:16  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 16:35:16  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 16:35:16  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 16:35:16  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 16:35:17  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 16:35:18  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 16:35:19  INFO main CoursesDAOImpl:addCourses:20 - Courses successfully add Courses{id=4, name_courses='java', description_courses='java se', price=1000}
+2017-11-02 16:52:14  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 16:52:14  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 16:52:15  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 16:52:15  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 16:52:15  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 16:52:15  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 16:52:15  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 16:52:15  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 16:52:15  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 16:52:17  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 16:52:17  INFO main CoursesDAOImpl:addStudents:20 - Students Successfully add Students{id=1, first_name='Ivan', last_name='Ivanov', email='ivan.i@gmail.com'}
+2017-11-02 16:54:11  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 16:54:11  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 16:54:11  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 16:54:11  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 16:54:11  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 16:54:11  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 16:54:11  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 16:54:11  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 16:54:12  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 16:54:14  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 16:54:14  INFO main CoursesDAOImpl:addLecturers:20 - Lecturers Successfully add Lecturers{id=1, first_name='Petr', last_name='Petrov', email='petr.p@gmail.com'}
+2017-11-02 17:01:27  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 17:01:27  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 17:01:27  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 17:01:28  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 17:01:28  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 17:01:28  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 17:01:28  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 17:01:28  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 17:01:28  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 17:01:29  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 17:01:29  INFO main CoursesDAOImpl:updateCourses:42 - Courses Successfully update Courses{id=1, name_courses='.net', description_courses='.net', price=1000}
+2017-11-02 17:01:29  INFO main CoursesDAOImpl:updateStudent:42 - Students Successfully update Students{id=1, first_name='Petr', last_name='Ivanov', email='ivan.i@gmail.com'}
+2017-11-02 17:01:29  INFO main CoursesDAOImpl:updateLecturers:43 - Lecturers Successfully update Lecturers{id=1, first_name='Ivan', last_name='Petrov', email='petr.p@gmail.com'}
+2017-11-02 17:05:55  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 17:05:55  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 17:05:55  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 17:05:56  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 17:05:56  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 17:05:56  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 17:05:56  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 17:05:56  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 17:05:56  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 17:05:57  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 17:06:20  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 17:06:20  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 17:06:20  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 17:06:21  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 17:06:21  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 17:06:21  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 17:06:21  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 17:06:21  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 17:06:22  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 17:06:23  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 17:06:47  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 17:06:47  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 17:06:47  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 17:06:48  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 17:06:48  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 17:06:48  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 17:06:48  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 17:06:48  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 17:06:48  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 17:06:49  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 17:06:50  INFO main CoursesDAOImpl:deleteStudentById:57 - Students Successfully delete Students{id=1, first_name='Petr', last_name='Ivanov', email='ivan.i@gmail.com'}
+2017-11-02 17:13:36  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 17:13:36  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 17:13:36  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 17:13:37  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 17:13:37  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 17:13:37  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 17:13:37  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 17:13:37  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 17:13:37  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 17:13:38  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 17:13:51  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 17:13:51  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 17:13:52  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 17:13:52  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 17:13:52  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 17:13:52  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 17:13:52  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 17:13:52  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 17:13:53  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 17:13:55  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 17:14:31  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 17:14:31  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 17:14:32  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 17:14:32  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 17:14:32  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 17:14:32  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 17:14:32  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 17:14:32  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 17:14:32  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 17:14:34  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 17:14:38  INFO main CoursesDAOImpl:deleteLecturersById:58 - Lecturer Successfully delete Lecturers{id=1, first_name='Ivan', last_name='Petrov', email='petr.p@gmail.com'}
+2017-11-02 17:14:38  INFO main CoursesDAOImpl:deleteCoursesById:57 - Course Successfully delete Courses{id=1, name_courses='.net', description_courses='.net', price=1000.00}
+2017-11-02 18:02:23  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:02:23  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:02:24  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:02:24  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:02:24  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:02:24  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:02:24  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:02:24  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:02:25  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:02:27  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:03:12  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:03:12  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:03:13  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:03:13  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:03:13  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:03:13  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:03:13  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:03:13  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:03:14  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:03:15  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:03:35  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:03:35  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:03:36  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:03:36  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:03:36  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:03:36  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:03:36  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:03:36  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:03:36  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:03:38  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:05:30  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:05:30  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:05:31  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:05:32  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:05:32  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:05:32  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:05:32  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:05:32  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:05:32  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:05:34  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:05:43  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:05:43  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:05:43  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:05:44  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:05:44  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:05:44  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:05:44  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:05:44  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:05:44  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:05:46  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:05:47  INFO main CoursesDAOImpl:getCoursesById:37 - Course Successfully getById Courses{id=3, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:10:04  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:10:04  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:10:04  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:10:04  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:10:04  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:10:04  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:10:04  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:10:04  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:10:05  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:10:07  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:10:07  INFO main CoursesDAOImpl:getCoursesById:37 - Course Successfully getById Courses{id=3, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:11:56  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:11:56  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:11:57  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:11:58  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:11:58  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:11:58  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:11:58  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:11:58  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:11:58  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:11:59  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:12:00  INFO main CoursesDAOImpl:getCoursesById:37 - Course Successfully getById Courses{id=3, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:12:00  INFO main CoursesDAOImpl:getStudentsById:37 - Student Successfully getById Students{id=1, first_name='test', last_name='test', email='test'}
+2017-11-02 18:12:00  INFO main CoursesDAOImpl:getLecturersById:38 - Student Successfully getById Lecturers{id=1, first_name='test', last_name='test', email='test'}
+2017-11-02 18:21:12  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:21:12  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:21:13  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:21:13  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:21:13  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:21:13  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:21:13  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:21:13  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:21:14  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:21:16  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:21:16  WARN main deprecation:createCriteria:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-11-02 18:21:16  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=5, name_courses='object c', description_courses='object c', price=1111.00}
+2017-11-02 18:21:16  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=2, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:21:16  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=3, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:21:16  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=4, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:26:37  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:26:37  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:26:38  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:26:38  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:26:38  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:26:38  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:26:38  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:26:38  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:26:39  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:26:41  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:26:42  WARN main deprecation:createCriteria:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-11-02 18:26:42  INFO main CoursesDAOImpl:getAllStudents:35 - Courses list [Students{id=1, first_name='test', last_name='test', email='test'}]
+2017-11-02 18:26:42  WARN main deprecation:createCriteria:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-11-02 18:26:42  INFO main CoursesDAOImpl:getAllLecturers:36 - Courses list Lecturers{id=1, first_name='test', last_name='test', email='test'}
+2017-11-02 18:27:35  INFO main Version:logVersion:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-02 18:27:35  INFO main Environment:<clinit>:213 - HHH000206: hibernate.properties not found
+2017-11-02 18:27:35  INFO main Version:<clinit>:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-02 18:27:36  WARN main pooling:configure:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-02 18:27:36  INFO main pooling:buildCreator:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/university?serverTimezone=UTC]
+2017-11-02 18:27:36  INFO main pooling:buildCreator:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-11-02 18:27:36  INFO main pooling:buildCreator:140 - HHH10001003: Autocommit mode: false
+2017-11-02 18:27:36  INFO main DriverManagerConnectionProviderImpl:<init>:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-02 18:27:36  INFO main Dialect:<init>:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-02 18:27:38  INFO main access:getIsolatedConnection:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55b5f5d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-11-02 18:27:39  WARN main deprecation:createCriteria:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-11-02 18:27:39  INFO main CoursesDAOImpl:getAllStudents:35 - Courses list [Students{id=1, first_name='test', last_name='test', email='test'}]
+2017-11-02 18:27:39  WARN main deprecation:createCriteria:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-11-02 18:27:39  INFO main CoursesDAOImpl:getAllLecturers:36 - Courses list Lecturers{id=1, first_name='test', last_name='test', email='test'}
+2017-11-02 18:27:39  WARN main deprecation:createCriteria:1813 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-11-02 18:27:39  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=5, name_courses='object c', description_courses='object c', price=1111.00}
+2017-11-02 18:27:39  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=2, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:27:39  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=3, name_courses='java', description_courses='java se', price=1000.00}
+2017-11-02 18:27:39  INFO main CoursesDAOImpl:getAllCourses:36 - Courses list Courses{id=4, name_courses='java', description_courses='java se', price=1000.00}
